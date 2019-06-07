@@ -15,7 +15,7 @@ def print_percentages(wrestler_data):
     percent_draws = str((int(wrestler_data[3]) / total_matches) * 100)
 # Print out the wrestler's name and their percentage stats
     name = wrestler_data[0]
-    print(f"Wresler {name} \nwon {percent_won.} \nlost {percent_lost} \ndrew {percent_draws}")
+    print(f"Wresler: {name} \nwon {percent_won.} \nlost {percent_lost} \ndrew {percent_draws}")
     if float(percent_lost)>50.00:
         print(f"{name} is a Jobber")
     else:
